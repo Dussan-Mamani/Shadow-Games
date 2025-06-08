@@ -9,7 +9,8 @@ body {
   font-family: Arial, sans-serif;
   display: flex;
   min-height: 100vh;
-  background-color: #f4f4f4;
+  
+background-color: #f4f4f4;
 }
 
 /* Sidebar */
@@ -115,6 +116,21 @@ body {
 .product-card button.cancel {
   background-color: #e74c3c;
   color: white;
+}
+.divi{
+  display: inline-flex;
+  margin: 1%;
+  text-align: center;
+
+}
+.img-imagenes{
+  display: inline-flex;
+  width: 100px;
+  height: 100px;
+  padding: 20%;
+  object-fit: cover;
+  margin: 1%;
+
 }
 
 /* Responsive */
